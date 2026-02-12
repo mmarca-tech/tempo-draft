@@ -1,0 +1,32 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Binaries
+*.pdb
+*.exe
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Exports and cache
+export/
+**/export/
+**/cache.db
+publish/
+**/publish/
+
+# Local settings (no longer used)
+appsettings.json
+mappings.json

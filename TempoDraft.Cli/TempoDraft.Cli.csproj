@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TempoDraft.Core\TempoDraft.Core.csproj" />
+    <ProjectReference Include="..\TempoDraft.Sources.Outlook\TempoDraft.Sources.Outlook.csproj" />
+    <ProjectReference Include="..\TempoDraft.Sources.Git\TempoDraft.Sources.Git.csproj" />
+    <ProjectReference Include="..\TempoDraft.Persistence\TempoDraft.Persistence.csproj" />
+    <ProjectReference Include="..\TempoDraft.Sinks.Tempo\TempoDraft.Sinks.Tempo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.2" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.53.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
